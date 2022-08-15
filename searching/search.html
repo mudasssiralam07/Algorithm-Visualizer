@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="search.css">
+    <title>Searching</title>
+</head>
+<body>
+    <section class="home" id="home">
+        <div class="primary_heading">
+            <h1>Searching Visualizer</h1>
+        </div>
+
+        <div class="nav">
+            <div class="left">
+                <button class="btn new" id="newarray">New Array</button>
+                <span class="select" id="size">Size
+                    <input type="range" class="size" id="Size" min="5" max="25" step="1" value="20">
+                </span>
+                <span class="select" id="Speed">Speed
+                    <input type="range" class="speed" id="speed" min="5" max="100" stepdown="10" value="20">
+                </span>
+            </div>
+
+            <div class="right">
+                <button class="btn" id="bsearch">Binary Search</button>
+                <button class="btn" id="lsearch">Linear Search</button>
+            </div>
+        </div>
+
+        <div id="array"> </div>
+        <div id="output"> </div>
+
+
+        <div class="input_box">
+            <input id="num" type="number" placeholder="Enter A number To Search">
+            <button class="btn" id="search">Search Now</button>
+        </div>
+    </section>
+
+    <script src="search.js"></script>
+    
+</body>
+</html>

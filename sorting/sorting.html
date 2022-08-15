@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sorting.css">
+    <title>Sorting</title>
+</head>
+
+<body>
+    <section class="home" id="home">
+        <div class="primary_heading">
+            <h1>Sorting Visualizer</h1>
+        </div>
+
+        <div class="nav">
+            <div class="left">
+                <button class="btn new" id="newarray">New Array</button>
+                <span class="select" id="size">Size
+                    <input type="range" class="size" id="Size" min="5" max="100" step="1" value="75">
+                </span>
+                <span class="select" id="Speed">Speed
+                    <input type="range" class="speed" id="speed" min="5" max="310" stepdown="10" value="80">
+                </span>
+            </div>
+
+            <div class="right">
+                <button class="btn" id="bubsort">Bubble Sort</button>
+                <button class="btn" id="inssort">Insertion Sort</button>
+                <button class="btn" id="selsort">Selection Sort</button>
+                <button class="btn" id="quisort">Quick Sort</button>
+                <button class="btn" id="mersort">Merge Sort</button>
+                <button class="btn" id="hepsort">Heap Sort</button>
+            </div>
+        </div>
+
+        <div class="bars" id="bars">
+
+        </div>
+    </section>
+        <script src="sorting.js"></script>
+</body>
+</html>
